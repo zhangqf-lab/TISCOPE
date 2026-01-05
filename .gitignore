@@ -1,0 +1,108 @@
+# Python package .gitignore
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions and compiled artifacts
+*.so
+*.pyd
+*.dll
+*.dylib
+*.o
+*.obj
+
+# Cython generated files
+*.c
+*.cpp
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+venv.bak/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+pylint-report.txt
+pylint-global.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Sphinx docs
+docs/_build/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.kate-swp
+
+# Logs, databases, and runtime files
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.pid
+*.seed
+
+# Environment and secrets
+.env
+.env.*
+.envrc
+local_settings.py
+secrets/
+*.pem
+*.key
+*.crt
+
+# Static and media files (if collected)
+staticfiles/
+media/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+coverage_html_report/
