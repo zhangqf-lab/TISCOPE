@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tiscope"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Yuzhe Li", email="liyuzhezju@gmail.com" },
   { name="Weixi Ning", email="aaronning98@gmail.com" }
